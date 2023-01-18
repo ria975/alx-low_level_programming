@@ -23,7 +23,7 @@ int _strlen(char *str)
 
 /**
  * _strcopy - copies a string pointed to by src, including the
- * terminating null byte, to a buffer pointed to by dest
+ *            terminating null byte, to a buffer pointed to by dest
  * @dest: the buffer storing the string copy
  * @src: the source string
  *
