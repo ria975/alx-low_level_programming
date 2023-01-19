@@ -9,7 +9,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int arg1, arg2, results;
+	int arg1, arg2, result;
 	char o;
 	int (*func)(int, int);
 
@@ -38,9 +38,9 @@ int main(int argc, char *argv[])
 		exit(100);
 	}
 
-	results = func(arg1, arg2);
+	result = func(arg1, arg2);
 
-	printf("%d\n", results);
+	printf("%d\n", result);
 
 	return (0);
 }
