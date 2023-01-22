@@ -2,27 +2,21 @@
 #include <stdarg.h>
 
 /**
- * sum_them_all - returns the sum of all parameters
- * @n: number of arguments
+ * sum_them_all - returns the sum of all parameter
+ * @n: number of argument
  *
  * Return:If n == 0 - 0
- * otherwise  sum of its parameters
+ * otherwise  sum of its parameter
  */
 
 int sum_them_all(const unsigned int n, ...)
 {
 	va_list valist;
 	unsigned int i;
-	int sum = 0;
-
-	if (n == 0)
-
-		va_start(valist, n);
-
+	sum = 0;
+	va_start(valist, n);
 	for (i = 0; i < n; i++)
 		sum += va_arg(valist, int);
-
 	va_end(valist);
-
 	return (sum);
 }
