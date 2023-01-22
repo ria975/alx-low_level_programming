@@ -1,5 +1,5 @@
 #include "variadic_functions"
-#include <stdarg .h>
+#include <stdarg.h>
 #include <stdio.h>
 
 /**
@@ -23,7 +23,7 @@ void print_all(const char * const format, ...)
 					printf("%s%c", sep, va_arg(list, int));
 					break;
 				case 'i':
-					ptintf("%s%d", sep, va_arg(list, int));
+					printf("%s%d", sep, va_arg(list, int));
 				case 'f':
 					printf("%s%f", sep, va_arg(list, double));
 				case 's':
