@@ -1,13 +1,9 @@
-/*
- * File: 0-puts_recursion.c
- * Auth: lady-ria
- */
-
 #include "main.h"
 
 /**
  * _puts_recursion - prints a string, followed by a new line.
- * @s: The string to be printed.
+ * @s: The string to be inputted
+ * Return: Always 0 (Success)
  */
 void _puts_recursion(char *s)
 {
