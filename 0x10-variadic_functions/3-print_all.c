@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * print_all - prints anything
- * @format: list of types of argument passed to the function
+ * print_all - prints all
+ * @format: param
  */
 void print_all(const char * const format, ...)
 {
@@ -38,7 +38,7 @@ void print_all(const char * const format, ...)
 					i++;
 					continue;
 			}
-			sep = ",";
+			sep = ", ";
 			i++;
 		}
 	}
